@@ -86,7 +86,7 @@ def feature_extracted(original_img,filt_h,filt_w):
                         cleftup = 0 if(cleftupx < 0 or cleftupy < 0) else out_img[cleftupy][cleftupx]
                         cleftdown = 0 if(cleftdownx <0 or cleftdowny < 0) else out_img[cleftdowny][cleftdownx]
                         crightup = 0 if(crightupx < 0 or crightupy < 0) else out_img[crightupy][crightupx]
-                        crightdown = 0if(crightdownx < 0 or crightdowny < 0)else out_img[crightdowny][crightdownx]
+                        crightdown = 0 if(crightdownx < 0 or crightdowny < 0)else out_img[crightdowny][crightdownx]
                         if(radio == 1/3):dif = -(cleftdown - bottomleft - cleftup + topleft) - (bottomright - crightdown - topright + crightup) + (crightdown - cleftdown - crightup + cleftup)
                         cleftupx = cw - 1 
                         cleftupy = int(ch + sh/3 - 1)
@@ -99,7 +99,7 @@ def feature_extracted(original_img,filt_h,filt_w):
                         cleftup = 0 if(cleftupx < 0 or cleftupy < 0) else out_img[cleftupy][cleftupx]
                         cleftdown = 0 if(cleftdownx <0 or cleftdowny < 0) else out_img[cleftdowny][cleftdownx]
                         crightup = 0 if(crightupx < 0 or crightupy < 0) else out_img[crightupy][crightupx]
-                        crightdown = 0if(crightdownx < 0 or crightdowny < 0)else out_img[crightdowny][crightdownx]
+                        crightdown = 0 if(crightdownx < 0 or crightdowny < 0)else out_img[crightdowny][crightdownx]
                         if(radio == 3):dif = -(cleftdown - bottomleft - crightdown + bottomright) - (topleft - cleftup - topright + crightup) + (crightdown - cleftdown - crightup + cleftup)
                     
                     #temp.append(dif)
