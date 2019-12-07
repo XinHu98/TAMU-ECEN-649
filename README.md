@@ -1,7 +1,7 @@
 # 649pro
 ECEN 649 project code
 
-To run the code, please run in the following code:  
+To run the code, please run in the following order:  
 1 pro.py  
 2 classifier.py  
 3 cascade.py  
