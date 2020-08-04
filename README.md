@@ -1,4 +1,4 @@
-# 649pro
+# TAMU 649pro
 ECEN 649 project code  
 
 Used package: os, numpy, opencv, json, tkinter, matplotlib
